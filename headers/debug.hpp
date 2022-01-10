@@ -1,3 +1,5 @@
+/* Debug */
+
 #ifndef debug
 #define debug
 
