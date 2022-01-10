@@ -1,19 +1,19 @@
 ![](img/logo.png "toSS")
 
-# Build Instructions
+## Build Instructions
 
 ```bash
 git clone https://github.com/kushagraa-j/toSS.git && cd toSS
 g++ *.cpp -o toss
 ```
 
-# Usage Instructions
+## Usage Instructions
 
 ```bash
 ./toss
 ```
 
-# Debug mode
+## Debug mode
 
 To enable debug mode, edit the file `headers/debug.hpp`, change `NODEBUG` to `DEBUG`.
 The file should looks like this,
@@ -24,7 +24,7 @@ The file should looks like this,
 #ifndef debug
 #define debug
 
-#define NODEBUG
+#define DEBUG
 
 #endif
 ```
