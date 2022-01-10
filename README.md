@@ -12,3 +12,19 @@ g++ *.cpp -o toss
 ```bash
 ./toss
 ```
+
+# Debug mode
+
+To enable debug mode, edit the file `headers/debug.hpp`, change `NODEBUG` to `DEBUG`.
+The file should looks like this,
+
+```cpp
+/* Debug */
+
+#ifndef debug
+#define debug
+
+#define NODEBUG
+
+#endif
+```
