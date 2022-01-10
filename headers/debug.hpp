@@ -3,6 +3,6 @@
 #ifndef debug
 #define debug
 
-#define DEBUG
+#define NODEBUG
 
 #endif
