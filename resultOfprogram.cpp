@@ -27,17 +27,24 @@ void result(int faceOfCoin , int userChoice)
 			std::cout << "  Entered result();\n\n" ;
 		#endif
 
-	
-	if (faceOfCoin == userChoice) 
+	if (userChoice != 0 && userChoice != 1) 
 	{
-		faceOfCoinInWords(faceOfCoin);
-		std::cout << "  You Won!";
+		std::cout << "  Invalid Input" ;
 	}
 
 	else
 	{
-		faceOfCoinInWords(faceOfCoin);
-		std::cout << "  You lost!";
+		if (faceOfCoin == userChoice) 
+		{
+			faceOfCoinInWords(faceOfCoin);
+			std::cout << "  You Won!";
+		}
+
+		else
+		{
+			faceOfCoinInWords(faceOfCoin);
+			std::cout << "  You lost!";
+		}
 	}
 
 

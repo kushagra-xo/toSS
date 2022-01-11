@@ -34,14 +34,6 @@ int inputFromUser(int value, std::string what)
 
 		#ifdef DEBUG
 			std::cout << "  Value from user:" << value << "\n" ;
-		#endif
-
-	if (value != 0 && value != 1) 
-	{
-		std::cout << "  Invalid Input" ;
-	}
-
-		#ifdef DEBUG
 			std::cout << "\n  Exited inputFromUser();";
 		#endif
 	
