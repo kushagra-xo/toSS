@@ -13,6 +13,21 @@ g++ *.cpp -o toss
 ./toss
 ```
 
+## Code Structure
+
+- inputFromUser.cpp
+	- instructions()	// provide the user with how to use the program
+	- input()		// take input from user
+
+- randomNumPls.cpp
+	- randomNumPls()	// generate a random number
+
+- resultOfProgram.cpp
+	- result()		// from user input and random number
+				// determine if the user won or lost
+- toSSprogram.cpp
+	- main() 		// all the functions are executed here
+
 ## Debug mode
 
 To enable debug mode, edit the file `headers/debug.hpp`, change `NODEBUG` to `DEBUG`.

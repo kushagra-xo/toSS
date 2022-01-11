@@ -23,7 +23,7 @@ void instructions()
 		#endif
 }
 
-int inputFromUser(int value, std::string what) 
+int input(int value, std::string what) 
 {
 		#ifdef DEBUG
 			std::cout << "\n  Entered inputFromUser();\n";

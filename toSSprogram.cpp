@@ -13,7 +13,7 @@ int main()
 
 	instructions();
 
-	int userChoice {inputFromUser(userChoice , "your choice")};
+	int userChoice {input(userChoice , "your choice")};
 	int faceOfCoin {randomNumPls()};
 
 	result(faceOfCoin,userChoice);
