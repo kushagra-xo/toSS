@@ -44,4 +44,4 @@ The file should looks like this,
 #endif
 ```
 
-All the debug statements are indented 4 spaces more than normal mode.
+All the debug statements are indented 4 spaces more than normal code.
