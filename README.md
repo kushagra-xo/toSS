@@ -16,17 +16,17 @@ g++ *.cpp -o toss
 ## Code Structure
 
 - inputFromUser.cpp
-	- instructions()	// provide the user with how to use the program
-	- input()		// take input from user
+	- instructions()	[ provide the user with how to use the program ]
+	- input()		[ take input from user ]
 
 - randomNumPls.cpp
-	- randomNumPls()	// generate a random number
+	- randomNumPls()	[ generate a random number ( 1 or 0 ) ]
 
 - resultOfProgram.cpp
-	- result()		// from user input and random number
-				// determine if the user won or lost
+	- result()		[ from user input and random number 
+				 determine if the user won or lost ]
 - toSSprogram.cpp
-	- main() 		// all the functions are executed here
+	- main() 		[ all the functions are executed here ]
 
 ## Debug mode
 
