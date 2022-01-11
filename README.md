@@ -16,7 +16,7 @@ g++ *.cpp -o toss
 ## Code Structure
 
 - inputFromUser.cpp
-	- instructions()	[ provide the user with how to use the program ]
+	- instructions()\t	[ provide the user with how to use the program ]
 	- input()		[ take input from user ]
 
 - randomNumPls.cpp
