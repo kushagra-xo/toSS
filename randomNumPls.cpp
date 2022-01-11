@@ -13,7 +13,7 @@ int randomNumPls()
 		#endif
 
 	srand (time(0));	
-	int num {rand() % 2};
+	short num {rand() % 2};
 
 		#ifdef DEBUG
 			std::cout << "  Random Number:" << num << "\n";

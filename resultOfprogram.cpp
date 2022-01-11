@@ -54,5 +54,4 @@ void result(int faceOfCoin , int userChoice)
 
 	std::cout << "\n" ;
 	std::cout << "\n" ;
-
 }
