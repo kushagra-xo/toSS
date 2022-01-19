@@ -1,5 +1,7 @@
 ![](img/logo.png "toSS")
 
+[![License: GPL v2](https://img.shields.io/badge/License-GNU%20v3.0-blue.svg)](https://github.com/neomutt/neomutt/blob/master/LICENSE.md "Copyright Statement")
+
 ## Build Instructions
 
 ```bash
