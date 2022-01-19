@@ -1,7 +1,7 @@
 ![](img/logo.png "toSS")
 
-[![Build: Successfu;](https://img.shields.io/badge/Build-Successful%20-green.svg)]
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v3.0-blue.svg)]
+![Build: Successfu;](https://img.shields.io/badge/Build-Successful%20-green.svg)
+![License: GPL v2](https://img.shields.io/badge/License-GPL%20v3.0-blue.svg)
 
 ## Build Instructions
 
