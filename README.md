@@ -19,10 +19,8 @@ g++ *.cpp -o toss
 	- instructions() 	->     provide the user with how to use the program 
 	- input()		->     take input from user 
 
-- randomNumPls.cpp
-	- randomNumPls() 	->     generate a random number ( 1 or 0 ) 
-
 - resultOfProgram.cpp
+	- randomNumPls() 	->     generate a random number ( 1 or 0 ) 
 	- faceOfCoinInWords()   ->     tell the user if the face was heads or tails
 	- result()       	->     from user input and random number 
 				       determine if the user won or lost 

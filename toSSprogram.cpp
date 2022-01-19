@@ -1,19 +1,16 @@
 #include<iostream>
 #include"headers/input.hpp"
-#include"headers/random.hpp"
-#include"headers/result.hpp" 
+#include"headers/result.hpp"
 #include"headers/debug.hpp"
 
 int main()
 {
 
-		#ifdef DEBUG
-			std::cout << "\n  Entered main();" ;
-		#endif
-
+	entered("main");
 	instructions();
 
-	int userChoice {input(userChoice , "your choice")};
+	std::cout << "  Enter your choice: " ;
+	int userChoice {input()};
 	int faceOfCoin {randomNumPls()};
 
 	result(faceOfCoin,userChoice);

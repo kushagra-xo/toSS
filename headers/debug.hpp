@@ -3,6 +3,7 @@
 #ifndef debug
 #define debug
 
-#define NODEBUG
+#define DEBUG
+void entered(std::string function);
 
 #endif

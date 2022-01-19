@@ -1,13 +1,9 @@
 #include<iostream>
-#include<string>
 #include"headers/debug.hpp"
 
 void instructions()
 {
-		#ifdef DEBUG
-			std::cout << "\n\n  Entered instructions();\n\n";
-		#endif
-
+	entered("instructions");
 	std::cout << "\n"
 		     "  This program provides you with a functionality of doing a toss digitally"
 		     "\n"
@@ -23,13 +19,14 @@ void instructions()
 		#endif
 }
 
-int input(int value, std::string what) 
+int input()
 {
 		#ifdef DEBUG
 			std::cout << "\n  Entered inputFromUser();\n";
 		#endif
 
-	std::cout << "  Enter " << what << ": " ;
+
+	int value{};
 	std::cin >> value ;
 
 		#ifdef DEBUG

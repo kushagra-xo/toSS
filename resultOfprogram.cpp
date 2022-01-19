@@ -1,7 +1,27 @@
 #include<iostream>
+#include<cstdlib>
+#include<time.h>
 #include"headers/debug.hpp"
 
-void faceOfCoinInWords(int num){
+int randomNumPls()
+{
+		#ifdef DEBUG
+			std::cout << "\n  Entered randomNumPls();\n";
+		#endif
+
+	srand (time(0));	
+	short num { static_cast<short>(rand() % 2) };
+
+		#ifdef DEBUG
+			std::cout << "  Random Number:" << num << "\n";
+			std::cout << "  Exited randomNumPls();\n\n";
+		#endif
+
+	return num;
+}
+
+void faceOfCoinInWords(int num)
+{
 
 		#ifdef DEBUG
 			std::cout << "  Entered faceOfCoinInWords();\n" ;
