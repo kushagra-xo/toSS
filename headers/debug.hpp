@@ -3,7 +3,9 @@
 #ifndef debug
 #define debug
 
-#define DEBUG
+#define NODEBUG
+
 void entered(std::string function);
+void exited(std::string function);
 
 #endif

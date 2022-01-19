@@ -5,27 +5,22 @@
 
 int randomNumPls()
 {
-		#ifdef DEBUG
-			std::cout << "\n  Entered randomNumPls();\n";
-		#endif
+	entered("randomNumPls");
 
 	srand (time(0));	
 	short num { static_cast<short>(rand() % 2) };
 
 		#ifdef DEBUG
-			std::cout << "  Random Number:" << num << "\n";
-			std::cout << "  Exited randomNumPls();\n\n";
+			std::cout << "  Random Number:" << num << "\n" ;
 		#endif
-
+	exited("randomNumPls");
 	return num;
 }
 
 void faceOfCoinInWords(int num)
 {
 
-		#ifdef DEBUG
-			std::cout << "  Entered faceOfCoinInWords();\n" ;
-		#endif
+	entered("faceOfCoinInWords");
 
 	if (num == 0) {
 		std::cout << "  It was Heads\n";	
@@ -36,16 +31,15 @@ void faceOfCoinInWords(int num)
 		std::cout << "  It was Tails\n";	
 	}
 
-		#ifdef DEBUG
-			std::cout << "  Exited faceOfCoinInWords();\n" ;
-		#endif
+	exited("faceOfCoinInWords");
+
 }
 
 void result(int faceOfCoin , int userChoice)
 {
-		#ifdef DEBUG
-			std::cout << "  Entered result();\n\n" ;
-		#endif
+
+	entered("result");
+	std::cout << "\n" ;
 
 	if (userChoice != 0 && userChoice != 1) 
 	{
@@ -68,10 +62,9 @@ void result(int faceOfCoin , int userChoice)
 	}
 
 
-		#ifdef DEBUG
-			std::cout << "\n\n  Exited result();" ;
-		#endif
+	std::cout << "\n" ;
+	std::cout << "\n" ;
 
-	std::cout << "\n" ;
-	std::cout << "\n" ;
+	exited("result");
+
 }

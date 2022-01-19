@@ -7,17 +7,12 @@ int main()
 {
 
 	entered("main");
+
 	instructions();
-
-	std::cout << "  Enter your choice: " ;
-	int userChoice {input()};
+	int userChoice {inputFromUser("your choice")};
 	int faceOfCoin {randomNumPls()};
-
 	result(faceOfCoin,userChoice);
 
-		#ifdef DEBUG
-			std::cout << "  main() ended;\n\n" ;
-		#endif
-	
+	exited("main");	
 	return 0;
 }

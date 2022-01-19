@@ -3,7 +3,7 @@
 #ifndef input 
 #define input
 
-int input();
+int inputFromUser(std::string str);
 void instructions();
 
 #endif

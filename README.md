@@ -20,8 +20,11 @@ g++ *.cpp -o toss
 	- input()		->     take input from user 
 
 - resultOfProgram.cpp
+<<<<<<< HEAD
 	- randomNumPls() 	->     generate a random number ( 1 or 0 ) 
 	- faceOfCoinInWords()   ->     tell the user if the face was heads or tails
+=======
+>>>>>>> parent of 5527363 (updated at 11-Jan-02:53PM)
 	- result()       	->     from user input and random number 
 				       determine if the user won or lost 
 - toSSprogram.cpp

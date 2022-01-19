@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 #include"headers/debug.hpp"
 
 void instructions()
@@ -13,27 +14,22 @@ void instructions()
 		     "  To choose Tails: 1"
 		     "\n" 
 		     "\n" ;
-
-		#ifdef DEBUG
-			std::cout << "  Exited instructions();\n";
-		#endif
+	exited("intructions");
 }
 
-int input()
+int inputFromUser(std::string str)
 {
-		#ifdef DEBUG
-			std::cout << "\n  Entered inputFromUser();\n";
-		#endif
+	entered("inputFromUser");
 
-
-	int value{};
+	int value {};
+	std::cout << "  Enter " << str << ": " ;
 	std::cin >> value ;
 
 		#ifdef DEBUG
 			std::cout << "  Value from user:" << value << "\n" ;
-			std::cout << "\n  Exited inputFromUser();";
 		#endif
 	
-	std::cout << "\n" ;
+
+	exited("inputFromUser");
 	return value;		
 }
