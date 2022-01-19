@@ -17,7 +17,7 @@ g++ *.cpp -o toss
 
 - inputFromUser.cpp
 	- instructions() 	->     provide the user with how to use the program 
-	- input()		->     take input from user 
+	- inputFromUser()	->     take input from user 
 
 - resultOfProgram.cpp
 	- randomNumPls() 	->     generate a random number ( 1 or 0 ) 
@@ -26,6 +26,10 @@ g++ *.cpp -o toss
 				       determine if the user won or lost 
 - toSSprogram.cpp
 	- main()         	->     all the functions are executed here
+
+- debug.cpp
+	- entered() 		->     notify on entering func
+	- exited() 		->     notify on exiting func
 
 ## Debug mode
 
@@ -42,5 +46,4 @@ The file should looks like this,
 
 #endif
 ```
-
-All the debug statements are indented 4 spaces more than normal code.
+Compile the code again to see effect.
