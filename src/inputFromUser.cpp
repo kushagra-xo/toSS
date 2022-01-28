@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string>
-#include"headers/debug.hpp"
+#include"../headers/debug.hpp"
 
 void instructions()
 {
@@ -25,10 +25,7 @@ int inputFromUser(std::string str)
 	std::cout << "  Enter " << str << ": " ;
 	std::cin >> value ;
 
-		#ifdef DEBUG
-			std::cout << "  Value from user:" << value << "\n" ;
-		#endif
-	
+	valueof("Value from user",value);
 
 	exited("inputFromUser");
 	return value;		

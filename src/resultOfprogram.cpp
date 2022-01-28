@@ -1,7 +1,7 @@
 #include<iostream>
 #include<cstdlib>
 #include<time.h>
-#include"headers/debug.hpp"
+#include"../headers/debug.hpp"
 
 int randomNumPls()
 {
@@ -9,10 +9,7 @@ int randomNumPls()
 
 	srand (time(0));	
 	short num { static_cast<short>(rand() % 2) };
-
-		#ifdef DEBUG
-			std::cout << "  Random Number:" << num << "\n" ;
-		#endif
+	valueof("Random Number",num);
 	exited("randomNumPls");
 	return num;
 }

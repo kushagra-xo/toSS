@@ -1,11 +1,9 @@
-#include<iostream>
-#include"headers/input.hpp"
-#include"headers/result.hpp"
-#include"headers/debug.hpp"
+#include"../headers/input.hpp"
+#include"../headers/result.hpp"
+#include"../headers/debug.hpp"
 
 int main()
 {
-
 	entered("main");
 
 	instructions();

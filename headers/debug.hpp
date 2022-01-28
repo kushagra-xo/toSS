@@ -3,9 +3,10 @@
 #ifndef debug
 #define debug
 
-#define NODEBUG
+#define DEBUG
 
-void entered(std::string function);
-void exited(std::string function);
+void entered(std::string functionName);
+void exited(std::string functionName);
+void valueof(std::string str, int integertoOutput);
 
 #endif

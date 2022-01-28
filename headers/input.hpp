@@ -1,5 +1,7 @@
 /* Input from user function */
 
+#include<string>
+
 #ifndef input 
 #define input
 
