@@ -18,22 +18,22 @@ g++ *.cpp -o toss
 
 ## Code Structure
 
-- inputFromUser.cpp
-	- instructions() 	->     provide the user with how to use the program 
-	- inputFromUser()	->     take input from user 
+- `inputFromUser.cpp`
+	- `instructions()` 	->     provide the user with how to use the program 
+	- `inputFromUser()`	->     take input from user 
 
-- resultOfProgram.cpp
-	- randomNumPls() 	->     generate a random number ( 1 or 0 ) 
-	- faceOfCoinInWords()   ->     tell the user if the face was heads or tails
-	- result()       	->     from user input and random number 
+- `resultOfProgram.cpp`
+	- `randomNumPls()` 	->     generate a random number ( 1 or 0 ) 
+	- `faceOfCoinInWords()` ->     tell the user if the face was heads or tails
+	- `result()`       	->     from user input and random number 
 				       determine if the user won or lost 
-- toSSprogram.cpp
-	- main()         	->     all the functions are executed here
+- `toSSprogram.cpp`
+	- `main()`         	->     all the functions are executed here
 
-- debug.cpp
-	- entered() 		->     notify on entering func
-	- exited() 		->     notify on exiting func
-	- valueof()		->     output value of variable
+- `debug.cpp`
+	- `entered()` 		->     notify on entering func
+	- `exited()` 		->     notify on exiting func
+	- `valueof()`		->     output value of variable
 
 ## Debug mode
 
