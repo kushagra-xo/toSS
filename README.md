@@ -33,6 +33,7 @@ g++ *.cpp -o toss
 - debug.cpp
 	- entered() 		->     notify on entering func
 	- exited() 		->     notify on exiting func
+	- valueof()		->     output value of variable
 
 ## Debug mode
 
