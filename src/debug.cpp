@@ -1,24 +1,22 @@
 #include<iostream>
-#include<string>
-#include"../headers/debug.hpp"
 
-void entered(std::string functionName)
+void entered(std::string functinoName)
 {
 	#ifdef DEBUG
-	std::cout << "  Entered " << functionName << "();\n" ;
+	std::cout << "  Entered " << functinoName << "();\n" ;
 	#endif
 }
 
-void exited(std::string functionName)
+void exited(std::string functinoName)
 {
 	#ifdef DEBUG
-	std::cout << "  Exited " << functionName << "();\n" ;
+	std::cout << "  Exited " << functinoName << "();\n" ;
 	#endif
 }
 
 void valueof(std::string str, int integertoOutput)
 {
 	#ifdef DEBUG
-	std::cout << "  " << str << ": " << integertoOutput << "\n" ;
+	std::cout << "  " << str << ":" << integertoOutput << "\n" ;
 	#endif
 }
