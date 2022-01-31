@@ -1,6 +1,6 @@
 ![](img/logo.png "toSS")
 
-![Language](https://img.shields.io/badge/Lang-C++%20-blue.svg)
+![Language](https://img.shields.io/badge/Lang-C++%20-orange.svg)
 ![Build: Successful](https://img.shields.io/badge/Build-Successful%20-green.svg)
 ![License: GPL v2](https://img.shields.io/badge/License-GPL%20v3.0-blue.svg)
 
